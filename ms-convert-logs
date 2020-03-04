@@ -1,0 +1,5 @@
+#!/bin/sh
+masscan --readscan masscan.bin -oJ masscan.json
+masscan --readscan masscan.bin -oX masscan.xml
+masscan --readscan masscan.bin -oG masscan.grep
+masscan --readscan masscan.bin -oL masscan.lst
